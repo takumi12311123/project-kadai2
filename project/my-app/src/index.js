@@ -1,17 +1,16 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+console.log('hello takumi')
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+class page1 extends React.Component {   //page1クラスにReact.Componentを継承する
+
+  render() {                          //画面表示の為のrenderメソッドを定義する
+    return (
+      <div>
+        HelloPage1!!!
+      </div>
+    );
+  }
+}
+
+export default page1;  
