@@ -3,10 +3,10 @@
 # docker
 ```sudo service docker start```<br>
 ###docker をスタートさせる<br>
-'docker-compose up'<br>
+```docker-compose up```<br>
 
 # frondend
-'npm start'
+```npm start```
 
 # backend
-'npm run start:dev'
+```npm run start:dev```
