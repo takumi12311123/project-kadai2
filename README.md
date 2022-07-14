@@ -1,9 +1,9 @@
 # project-kadai2
 
 # docker
-sudo service docker start
-docker をスタートさせる
-docker-compose up
+sudo service docker start<br>
+docker をスタートさせる<br>
+docker-compose up<br>
 
 # frondend
 npm start
