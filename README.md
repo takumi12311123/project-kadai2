@@ -1,8 +1,9 @@
 # project-kadai2
 
 # docker
-```sudo service docker start```<br>
 ### docker をスタートさせる<br>
+```sudo service docker start```<br>
+### docker 起動
 ```docker-compose up```<br>
 
 # frondend
