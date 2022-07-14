@@ -1,4 +1,12 @@
 # project-kadai2
 
-ゼミ課題前期-2
-陸上競技における高校生と大学監督・コーチを結び付けるサービスを作りたい
+# docker
+sudo service docker start
+docker をスタートさせる
+docker-compose up
+
+# frondend
+npm start
+
+# backend
+npm run start:dev
