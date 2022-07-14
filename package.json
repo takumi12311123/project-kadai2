@@ -1,11 +1,31 @@
 {
   "dependencies": {
-    "@prisma/client": "^3.14.0",
+    "@prisma/client": "^3.15.2",
+    "graphql": "^16.5.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-router-dom": "^6.3.0"
   },
   "devDependencies": {
-    "prisma": "^3.14.0"
-  }
+    "prisma": "^3.15.2",
+    "seed": "ts-node prisma/seed.ts"
+  },
+  "name": "project-kadai2",
+  "description": "ゼミ課題前期-2 陸上競技における高校生と大学監督・コーチを結び付けるサービスを作りたい",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takumi12311123/project-kadai2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/takumi12311123/project-kadai2/issues"
+  },
+  "homepage": "https://github.com/takumi12311123/project-kadai2#readme"
 }
